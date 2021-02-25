@@ -167,7 +167,7 @@ class ReservationController extends Controller
     }
 
     public function getDisabledDates($id) {
-        $array = ['error' => '', 'list' => ''];
+        $array = ['error' => '', 'list' => []];
 
         $area = Area::find($id);
 
@@ -176,7 +176,7 @@ class ReservationController extends Controller
         $disabledDays = AreaDisabledDay::where('id_area', $id)->get();
 
         foreach($disabledDays as $disabledDay) {
-            $array['list'] = $disabledDay['day'];
+            $array['list'][] = $disabledDay['day'];
         }
 
         //Dias disabled atraves do allowed
@@ -192,7 +192,7 @@ class ReservationController extends Controller
 
         // Listar os dias proibidos 3 mes para frente
         $start = time();
-        $end = strtotime('+3 months');
+        $end = strtotime('+5 months');
         $current = $start;
         $keep = true;
 
@@ -203,7 +203,7 @@ class ReservationController extends Controller
         ) {
             $wd = date('w', $current);
             if(in_array($wd, $offDays)) {
-                $array['list'] = date('Y-m-d', $current);
+                $array['list'][] = date('Y-m-d', $current);
             }
         }
         
