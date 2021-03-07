@@ -1,6 +1,6 @@
 <h1 align="center">:house_with_garden: DevsCond API :house_with_garden:</h1>
 
-<p align="center">O Devscond API se trata de uma API desenvolvida em laravel para ser utilizado no sistema devscond, o mesmo se trata de um sistema de gerenciamento de condominio desenvolvido para pratiar o conhecimento adquirido em cursos de Laravel.</p>
+<p align="center">O Devscond API se trata de uma API desenvolvida em laravel para ser utilizado no sistema devscond, o mesmo se trata de um sistema de gerenciamento de condominio desenvolvido para praticar o conhecimento adquirido em cursos de Laravel.</p>
 
 ## :camera: Demonstração
 
