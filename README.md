@@ -24,7 +24,7 @@
 # Funcionalidades
 
  - Login
- - register
+ - Register
  - Validação do token JWT
  - logout
  - Listar Avisos
@@ -47,7 +47,7 @@
  - Listar Horarios disponiveis da area compartilada
  - Listar minhas reservas
  - Deletar uma reserva minha pelo ID
- - 
+
 ---
 
 
