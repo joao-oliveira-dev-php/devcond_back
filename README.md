@@ -23,8 +23,31 @@
 
 # Funcionalidades
 
- - [teste]
-
+ - Login
+ - register
+ - Validação do token JWT
+ - logout
+ - Listar Avisos
+ - Dar Like ou tirar like do aviso
+ - Listar Documentos
+ - Listar Ocorrencia
+ - Adicionar Ocorrencia
+ - Adicionar Arquivo da ocorrencia
+ - Listar Boletos
+ - Listar unidade pelo ID
+ - Adicionar pessoas a unidade do ID informado
+ - Adicionar veiculos a unidade do ID informado
+ - Adicionar pets a unidade do ID informado
+ - Remover pessoas a unidade do ID informado
+ - Remover veiculos a unidade do ID informado
+ - Remover pets a unidade do ID informado
+ - Listar Reservas de areas compartilhadas
+ - Reserva uma area compartilhada
+ - Listar dias desabilitados por padrão de determinada area compartilhada
+ - Listar Horarios disponiveis da area compartilada
+ - Listar minhas reservas
+ - Deletar uma reserva minha pelo ID
+ - 
 ---
 
 
