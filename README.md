@@ -69,13 +69,13 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - ✔️ Routes
 
 
-## ⚙ Configuração
+## ⚙ Configuração via Composer
 
-1- Para instalar as dependências:
-> npm install
+1- Para instalar o Laravel:
+> composer global require laravel/installer
 
 2- Para iniciar a aplicação:
-> npm start
+> php artisan serve
 
 
 
