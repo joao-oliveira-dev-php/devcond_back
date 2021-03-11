@@ -23,30 +23,64 @@
 
 # Funcionalidades
 
- - Login
- - Register
- - Validação do token JWT
- - logout
- - Listar Avisos
- - Dar Like ou tirar like do aviso
- - Listar Documentos
- - Listar Ocorrencia
- - Adicionar Ocorrencia
- - Adicionar Arquivo da ocorrencia
- - Listar Boletos
- - Listar unidade pelo ID
- - Adicionar pessoas a unidade do ID informado
- - Adicionar veiculos a unidade do ID informado
- - Adicionar pets a unidade do ID informado
- - Remover pessoas a unidade do ID informado
- - Remover veiculos a unidade do ID informado
- - Remover pets a unidade do ID informado
- - Listar Reservas de areas compartilhadas
- - Reserva uma area compartilhada
- - Listar dias desabilitados por padrão de determinada area compartilhada
- - Listar Horarios disponiveis da area compartilada
- - Listar minhas reservas
- - Deletar uma reserva minha pelo ID
+ - 1 - Login
+ - 2 - Register
+ - 3 - Validat Token JWT
+ - 4 - logout
+ - 5 - Listar Avisos
+ - 6 - Dar Like em Aviso
+ - 7 - Listar Documentos
+ - 8 - Listar Avisos
+ - 9 - Adicionar Aviso
+ - 10 - Adicionar Imagem pro aviso
+ - 11 - Listar Boletos
+ - 12 - Listar Achados e perdidos
+ - 13 - Inserir Achados e perdidos
+ - 14 - Atualizar um Achado e perdido
+ - 15 - Pegar informações da unidade
+ - 16 - Adicionar pessoas a unidade
+ - 17 - Adicionar veiculos a unidade
+ - 18 - Adicionar pets a unidade
+ - 19 - Remover pessoas da unidades
+ - 20 - Remover veiculos da unidade
+ - 21 - Remover pets da unidade
+ - 22 - Listar reservas de areas comuns
+ - 23 - Fazer reserva uma area comum
+ - 24 - Listar dias que as areas comuns estão sem funcionar
+ - 25 - Listar horario de funcionamento da area comum
+ - 26 - Listar suas reservas
+ - 27 - Deletar minha reserva
+
+
+# Rotas
+
+  - 1 - /auth/login -POST
+ - 2 - Register
+ - 3 - Validat Token JWT
+ - 4 - logout
+ - 5 - Listar Avisos
+ - 6 - Dar Like em Aviso
+ - 7 - Listar Documentos
+ - 8 - Listar Avisos
+ - 9 - Adicionar Aviso
+ - 10 - Adicionar Imagem pro aviso
+ - 11 - Listar Boletos
+ - 12 - Listar Achados e perdidos
+ - 13 - Inserir Achados e perdidos
+ - 14 - Atualizar um Achado e perdido
+ - 15 - Pegar informações da unidade
+ - 16 - Adicionar pessoas a unidade
+ - 17 - Adicionar veiculos a unidade
+ - 18 - Adicionar pets a unidade
+ - 19 - Remover pessoas da unidades
+ - 20 - Remover veiculos da unidade
+ - 21 - Remover pets da unidade
+ - 22 - Listar reservas de areas comuns
+ - 23 - Fazer reserva uma area comum
+ - 24 - Listar dias que as areas comuns estão sem funcionar
+ - 25 - Listar horario de funcionamento da area comum
+ - 26 - Listar suas reservas
+ - 27 - Deletar minha reserva
 
 ---
 
